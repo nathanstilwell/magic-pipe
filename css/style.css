@@ -54,7 +54,35 @@ body {
 }
 
 .the-magic {
-  color: DeepPink;
+  color: white;
   font-size: 2rem;
   text-decoration: none;
+  display: inline-block;
+  background-color: deeppink;
+  padding: 0.75rem;
+  border-radius: 9px;
+
+  animation: 4s ease magic-button infinite;
+}
+
+@-webkit-keyframes magic-button {
+    0% { background-color: deeppink }
+    12.5% { background-color: darkviolet }
+    25% { background-color: forestgreen }
+    37.5% { background-color: coral }
+    50% { background-color: darkcyan }
+    62.5% { background-color: orangered }
+    75% { background-color: firebrick }
+    87.5% { background-color: mediumorchid }
+}
+
+@keyframes magic-button {
+    0% { background-color: deeppink }
+    12.5% { background-color: darkviolet }
+    25% { background-color: forestgreen }
+    37.5% { background-color: coral }
+    50% { background-color: darkcyan }
+    62.5% { background-color: orangered }
+    75% { background-color: firebrick }
+    87.5% { background-color: mediumorchid }
 }
