@@ -5,8 +5,8 @@
   //
 
   var prefix = 'meetup-makes-it-magical--';
-  var magicStyleUrl = 'https://cdn.rawgit.com/nathanstilwell/54f147004fc83b5d3885/raw/22ab7a581c5377ff2c679a93f6c02f1d1c2f1cdc/magical.css';
-  var supercornUrl = 'https://raw.githubusercontent.com/upright-netizen/uprightnetizen.com/102d1d84259c54189ad31110668455f167302d3c/img/supercorn.gif';
+  var magicStyleUrl = 'http://nathanstilwell.com/magic-pipe/css/magic.css';
+  var supercornUrl = 'http://nathanstilwell.com/magic-pipe/img/supercorn.gif';
   var supercornClassname = prefix + 'supercorn';
   var magicCSSId = prefix + 'magic_style';
   var rainbowId = prefix + 'rainbow-everything';
