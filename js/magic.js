@@ -67,12 +67,12 @@
     var c = document.createElement('span');
     var bang = document.createElement('span');
 
-    m.innerText = 'M';
-    a.innerText = 'a';
-    g.innerText = 'g';
-    i.innerText = 'i';
-    c.innerText = 'c';
-    bang.innerText = '!';
+    m.textContent = 'M';
+    a.textContent = 'a';
+    g.textContent = 'g';
+    i.textContent = 'i';
+    c.textContent = 'c';
+    bang.textContent = '!';
 
     title.className = prefix + 'magic-title';
     title.appendChild(m);
