@@ -3,12 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Time for Magic</title>
+  <link href="https://npmcdn.com/basscss@8.0.0/css/basscss.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <div class="content">
-  <a href="javascript:(function(){var d = document,n='__magic_script',m=d.getElementById(n),o;if(!m){m=d.createElement('div');m.id = n;d.getElementsByTagName('body')[0].appendChild(m);o=d.createElement('script');o.src = 'http://nathanstilwell.com/magic-pipe/js/magic.js';m.appendChild(o);} else{bringBackThoseMagicalTimes();}}());
-">Install</a>
+  <header>
+    <h1 class="h1 giant-title center">Magic Pipe</h1>
+    <h2 class="h2 center">does you page need a little more magic? Let me help you.</h2>
+  </header>
+
+  <section class="the-goods center">
+    <p>Take the link below and drag it to your bookmarks toolbar</p>
+    <div class="drag-me m4 p3 col-3 mx-auto">
+      <a class="the-magic" id="drag-the-magic" href="javascript:(function(){var d = document,n='__magic_script',m=d.getElementById(n),o;if(!m){m=d.createElement('div');m.id = n;d.getElementsByTagName('body')[0].appendChild(m);o=d.createElement('script');o.src = 'http://nathanstilwell.com/magic-pipe/js/magic.js';m.appendChild(o);} else{bringBackThoseMagicalTimes();}}());">Magic!</a>
+    </div>
+
+    <p>Then, navigate to your favorite website that needs a little spice and unleash the joy!</p>
+  </section>
+
+  <script>
+    document
+      .getElementById('drag-the-magic')
+      .addEventListener("dragstart", function (e) {
+        var img = document.createElement('img');
+        img.src = 'img/sparkle-pony.gif';
+        e.dataTransfer.setDragImage(img, 25, 30);
+      });
+  </script>
+
 
 </body>
 </html>

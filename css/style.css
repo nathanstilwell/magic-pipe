@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+}
+
+.giant-title { font-size: 1.5rem; }
+
+@media only screen and (min-width : 30rem) {
+  .giant-title { font-size: 2rem }
+}
+
+@media only screen and (min-width: 48rem) {
+  .giant-title { font-size: 3rem }
+}
+
+@media only screen and (min-width: 60rem) {
+  .giant-title { font-size: 4.8rem }
+}
+
+@media only screen and (min-width: 80rem) {
+  .giant-title { font-size: 6rem }
+}
+
+@media only screen and (min-width: 100rem) {
+  .giant-title { font-size: 8rem }
+}
+
+@media only screen and (min-width: 120rem) {
+  .giant-title { font-size: 10rem }
+}
+
+@media only screen and (min-width: 150rem) {
+  .giant-title { font-size: 12rem }
+}
+
+@media only screen and (min-width: 60rem) {
+  .the-goods {
+    margin: 0 auto;
+    width: 50vw;
+  }
+}
+
+.drag-me:before {
+  content: 'drag this link';
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+.drag-me {
+  border: 1px dashed #ccc;
+  position: relative;
+}
+
+.the-magic {
+  color: DeepPink;
+  font-size: 2rem;
+  text-decoration: none;
+}
