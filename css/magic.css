@@ -1,0 +1,233 @@
+/* Rainbows */
+.meetup-makes-it-magical--rainbow-everything {
+  background: -moz-linear-gradient(
+    right,
+    hsl(0, 100%, 50%) 1%,
+    hsl(0, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 86%,
+    hsl(300, 100%, 50%) 86%
+  );
+  background: -webkit-gradient(linear,
+   right top,
+   left top,
+    color-stop(1%, hsl(0, 100%, 50%)),
+    color-stop(14%, hsl(0, 100%, 50%)),
+    color-stop(14%, hsl(30, 100%, 50%)),
+    color-stop(28%, hsl(30, 100%, 50%)),
+    color-stop(28%, hsl(60, 100%, 50%)),
+    color-stop(42%, hsl(60, 100%, 50%)),
+    color-stop(42%, hsl(120, 100%, 50%)),
+    color-stop(58%, hsl(120, 100%, 50%)),
+    color-stop(58%, hsl(240, 100%, 50%)),
+    color-stop(72%, hsl(240, 100%, 50%)),
+    color-stop(72%, hsl(275, 100%, 50%)),
+    color-stop(86%, hsl(275, 100%, 50%)),
+    color-stop(86%, hsl(300, 100%,50%))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsl(0, 100%, 50%) 1%,
+    hsl(0, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 86%,
+    hsl(300, 100%, 50%) 86%
+  ):
+  background: -o-linear-gradient(
+    right,
+    hsl(0, 100%, 50%) 1%,
+    hsl(0, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 86%,
+    hsl(300, 100%, 50%) 86%
+  );
+  background: -ms-linear-gradient(right,
+    hsl(0, 100%, 50%) 1%,
+    hsl(0, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 86%,
+    hsl(300, 100%, 50%) 86%
+  );
+
+  background: linear-gradient(
+    to right,
+    hsl(0, 100%, 50%) 1%,
+    hsl(0, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 14%,
+    hsl(30, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 28%,
+    hsl(60, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 42%,
+    hsl(120, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 58%,
+    hsl(240, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 72%,
+    hsl(275, 100%, 50%) 86%,
+    hsl(300, 100%, 50%) 86%
+  );
+  height: 100vh;
+  width: 100vw;
+  margin-top: -100vh;
+  opacity: 0.75;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.meetup-makes-it-magical--magic .meetup-makes-it-magical--rainbow-everything {
+  margin-top: 0;
+  transition: margin-top 0.65s ease-out;
+}
+
+.meetup-makes-it-magical--rainbow-everything,
+.meetup-makes-it-magical--unicorn-container {
+  z-index: 9999; // cover everything!
+}
+
+/* Unicorns */
+.meetup-makes-it-magical--unicorn-container {
+  bottom: 0;
+  height: 100vh;
+  margin-bottom: -100vh;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+}
+
+.meetup-makes-it-magical--unicorn-container .meetup-makes-it-magical--supercorn {
+  margin: 0 auto;
+  max-width: 50%;
+  max-width: 50vw;
+}
+
+.meetup-makes-it-magical--magic .meetup-makes-it-magical--unicorn-container {
+  margin-bottom: 0;
+  transition: margin-bottom 0.65s ease-out;
+}
+
+.meetup-makes-it-magical--magic-title {
+  font-family: sans-serif;
+  font-size:12rem;
+  margin: 5vh 0 2vh;
+
+ -webkit-animation: 0.5s meetup-makes-it-magical--rainbow-dance infinite;
+         animation: 0.5s meetup-makes-it-magical--rainbow-dance infinite;
+}
+
+.meetup-makes-it-magical--magic-title span {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.meetup-makes-it-magical--magic-title span:nth-child(1) {
+  -webkit-animation: 1s linear meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(2) {
+  -webkit-animation: 1s linear 0.35s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 0.35s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(3) {
+  -webkit-animation: 1s linear 0.7s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 0.7s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(4) {
+  -webkit-animation: 1s linear 1.05s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 1.05s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(5) {
+  -webkit-animation: 1s linear 1.4s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 1.4s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(6) {
+  -webkit-animation: 1s linear 1.75s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 1.75s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+.meetup-makes-it-magical--magic-title span:nth-child(7) {
+  -webkit-animation: 1s linear 2.1s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+          animation: 1s linear 2.1s meetup-makes-it-magical--jump-a-little infinite, 5s ease meetup-makes-it-magical--flash infinite;
+}
+
+@-webkit-keyframes meetup-makes-it-magical--rainbow-dance {
+  0%   { text-shadow: 0 }
+  25%  { text-shadow: -1px 1px black, -2px 2px purple, -3px 3px purple, -4px 4px purple, -5px 5px magenta, -6px 6px magenta, -7px 7px magenta, -8px 8px magenta, -9px 9px blue, -10px 10px blue, -11px 11px blue, -12px 12px blue, -13px 13px green, -14px 14px green, -15px 15px green, -16px 16px green, -17px 17px green, -18px 18px yellow, -19px 19px yellow, -20px 20px yellow, -21px 21px yellow, -22px 22px yellow, -23px 23px orange, -24px 24px orange, -25px 25px orange, -26px 26px orange, -27px 27px orange, -28px 28px orange, -29px 29px red, -30px 30px red, -31px 31px red, -32px 32px red, -33px 33px red, -34px 34px red }
+  50%  { text-shadow: 0 }
+  75%  { text-shadow: 1px  1px black, 2px  2px purple, 3px  3px purple, 4px  4px purple, 5px  5px magenta, 6px  6px magenta, 7px  7px magenta, 8px  8px magenta, 9px  9px blue, 10px 10px blue, 11px 11px blue, 12px 12px blue, 13px 13px green, 14px 14px green, 15px 15px green, 16px 16px green, 17px 17px green, 18px 18px yellow, 19px 19px yellow, 20px 20px yellow, 21px 21px yellow, 22px 22px yellow, 23px 23px orange, 24px 24px orange, 25px 25px orange, 26px 26px orange, 27px 27px orange, 28px 28px orange, 29px 29px red, 30px 30px red, 31px 31px red, 32px 32px red, 33px 33px red, 34px 34px red }
+  100%   { text-shadow: 0 }
+}
+
+@keyframes meetup-makes-it-magical--rainbow-dance {
+  0%   { text-shadow: 0 }
+  25%  { text-shadow: -1px 1px black, -2px 2px purple, -3px 3px purple, -4px 4px purple, -5px 5px magenta, -6px 6px magenta, -7px 7px magenta, -8px 8px magenta, -9px 9px blue, -10px 10px blue, -11px 11px blue, -12px 12px blue, -13px 13px green, -14px 14px green, -15px 15px green, -16px 16px green, -17px 17px green, -18px 18px yellow, -19px 19px yellow, -20px 20px yellow, -21px 21px yellow, -22px 22px yellow, -23px 23px orange, -24px 24px orange, -25px 25px orange, -26px 26px orange, -27px 27px orange, -28px 28px orange, -29px 29px red, -30px 30px red, -31px 31px red, -32px 32px red, -33px 33px red, -34px 34px red }
+  50%  { text-shadow: 0 }
+  75%  { text-shadow: 1px  1px black, 2px  2px purple, 3px  3px purple, 4px  4px purple, 5px  5px magenta, 6px  6px magenta, 7px  7px magenta, 8px  8px magenta, 9px  9px blue, 10px 10px blue, 11px 11px blue, 12px 12px blue, 13px 13px green, 14px 14px green, 15px 15px green, 16px 16px green, 17px 17px green, 18px 18px yellow, 19px 19px yellow, 20px 20px yellow, 21px 21px yellow, 22px 22px yellow, 23px 23px orange, 24px 24px orange, 25px 25px orange, 26px 26px orange, 27px 27px orange, 28px 28px orange, 29px 29px red, 30px 30px red, 31px 31px red, 32px 32px red, 33px 33px red, 34px 34px red }
+  100%   { text-shadow: 0 }
+}
+
+@-webkit-keyframes meetup-makes-it-magical--jump-a-little {
+  0% { -webkit-transform: translateY(0); transform: translateY(0) }
+  25% { -webkit-transform: translateY(-2rem); transform: translateY(-2rem) }
+  75% { -webkit-transform: translateY(4rem); transform: translateY(4rem) }
+  100% { -webkit-transform: translateY(0); transform: translateY(0) }
+}
+
+@keyframes meetup-makes-it-magical--jump-a-little {
+  0% { -webkit-transform: translateY(0); transform: translateY(0) }
+  25% { -webkit-transform: translateY(-2rem); transform: translateY(-2rem) }
+  75% { -webkit-transform: translateY(4rem); transform: translateY(4rem) }
+  100% { -webkit-transform: translateY(0); transform: translateY(0) }
+}
+
+@-webkit-keyframes meetup-makes-it-magical--flash {
+  0% { color: black }
+  12.5% { color: indianred }
+  25% { color: coral }
+  37.5% { color: darkkhaki }
+  50% { color: mediumseagreen }
+  62.5% { color: blue }
+  75% { color: indigo }
+  87.5% { color: mediumorchid }
+}
+
+@keyframes meetup-makes-it-magical--flash {
+  0% { color: black }
+  12.5% { color: indianred }
+  25% { color: coral }
+  37.5% { color: darkkhaki }
+  50% { color: mediumseagreen }
+  62.5% { color: blue }
+  75% { color: indigo }
+  87.5% { color: mediumorchid }
+}
