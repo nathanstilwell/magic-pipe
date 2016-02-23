@@ -22,13 +22,13 @@
 
   var removeMagic = function () {
     body.classList.remove(toggleClass);
-  }
+  };
 
   var addMagic = function () {
     body.classList.add(toggleClass);
   };
 
-  var loadCSS = function(url, id) {
+  var loadCSS = function (url, id) {
     return new Promise(function (resolve) {
       var link = document.createElement('link');
       var img = document.createElement('img');
@@ -40,15 +40,15 @@
 
       document.getElementsByTagName('head')[0].appendChild(link);
 
-      img.onerror = function(){
+      img.onerror = function () {
         resolve();
-      }
+      };
 
       img.src = url;
     }); // promise
-  }
+  };
 
-  var makeRainbowOverlay = function makeRainbowOverlay (id) {
+  var makeRainbowOverlay = function makeRainbowOverlay(id) {
     if (!document.getElementById(id)) {
       var rainbows = document.createElement('div');
       rainbows.className = id;
@@ -56,9 +56,9 @@
       rainbows.addEventListener('click', removeMagic);
       body.appendChild(rainbows);
     }
-  }
+  };
 
-  var makeMagictitle = function makeMagictitle () {
+  var makeMagictitle = function makeMagictitle() {
     var title = document.createElement('h2');
     var m = document.createElement('span');
     var a = document.createElement('span');
@@ -82,16 +82,16 @@
     title.appendChild(c);
     title.appendChild(bang);
     return title;
-  }
+  };
 
-  var makeSupercorn = function makeSupercorn (url) {
+  var makeSupercorn = function makeSupercorn(url) {
     var supercorn = document.createElement('img');
     supercorn.className = supercornClassname;
     supercorn.setAttribute('src', url);
     return supercorn;
-  }
+  };
 
-  var makeUnicornOverlay = function makeUnicornOverlay (id) {
+  var makeUnicornOverlay = function makeUnicornOverlay(id) {
     if (!document.getElementById(id)) {
       var unicorns = document.createElement('div');
       unicorns.className = id;
@@ -105,7 +105,7 @@
       unicorns.appendChild(supercorn);
       body.appendChild(unicorns);
     }
-  }
+  };
 
   //
   //  Fire it up!!!
@@ -118,7 +118,7 @@
     setTimeout(function () {
       addMagic();
     }, 200);
-  }
+  };
 
   // Add CSS and go
   if (!magicCSSExists) {
