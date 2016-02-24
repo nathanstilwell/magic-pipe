@@ -1,4 +1,4 @@
-(function (global) {
+(function () {
 
   //
   //  Vars
@@ -14,7 +14,6 @@
   var toggleClass = prefix + 'magic';
   var body = document.getElementsByTagName('body')[0];
   var magicCSSExists = document.getElementById(magicCSSId);
-  var cssPromise;
 
   //
   //  Functions
@@ -128,4 +127,4 @@
   }
 
   window.bringBackThoseMagicalTimes = addMagic;
-}(window));
+}());
